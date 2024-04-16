@@ -1,5 +1,5 @@
 // Part 1: Refactoring Old Code
-let csvStrArray = [
+let csvArray = [
     ["ID,Name,Occupation,Age"],
     [
         ["42,Bruce,Knight,41"]
@@ -10,9 +10,9 @@ let csvStrArray = [
 ] 
 
 // Part 2: Expanding Functionality
-const columns = csvStrArray2[0] 
+const columns = csvArray2[0] 
 
-let csvStrArray2 = [
+let csvArray2 = [
     ["ID,Name,Occupation,Age"],
     ["42,Bruce,Knight,41"],
     ["57,Bob,Fry Cook,19"],
