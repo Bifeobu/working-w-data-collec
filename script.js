@@ -19,15 +19,31 @@ const table = [header, row1, row2, row3, row4];
 console.log(table)
 
 // Part 2: Expanding Functionality
-let csvArray2 = [
+// let csvArray2 = [
+//     ["ID,Name,Occupation,Age"],
+//     ["42,Bruce,Knight,41"],
+//     ["57,Bob,Fry Cook,19"],
+//     ["63,Blaine,Quiz Master,58"],
+//     ["98,Bill,Doctor’s Assistant,26"]
+// ]
+
+// const columns = csvArray2[0]
+
+let csvStr = "ID,Name,Occupation,Age\n42,Bruce,Knight,41\n57,Bob,Fry Cook,19\n63,Blaine,Quiz Master,58\n98,Bill,Doctor’s Assistant,26"
+
+let numCol;
+
+let csvArray = [
     ["ID,Name,Occupation,Age"],
-    ["42,Bruce,Knight,41"],
-    ["57,Bob,Fry Cook,19"],
-    ["63,Blaine,Quiz Master,58"],
-    ["98,Bill,Doctor’s Assistant,26"]
+    [
+        ["42,Bruce,Knight,41"],
+        ["57,Bob,Fry Cook,19"],
+        ["63,Blaine,Quiz Master,58"],
+        ["98,Bill,Doctor’s Assistant,26"],
+    ]
 ]
 
-const columns = csvArray2[0]
+console.log(csvArray)
 
 // Part 3: Transforming Data
 
