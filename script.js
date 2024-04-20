@@ -83,3 +83,5 @@ console.log(rows)
 
 // 2.
 rows.splice(1,0, {id: "48", name: "Barry", occupation: "Runner", age: "25"})
+console.log(rows)
+
