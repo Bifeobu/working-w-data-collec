@@ -1,17 +1,24 @@
 // Part 1: Refactoring Old Code
-let csvArray = [
-    ["ID,Name,Occupation,Age"],
-    [
-        ["42,Bruce,Knight,41"]
-        ["57,Bob,Fry Cook,19"],
-        ["63,Blaine,Quiz Master,58"],
-        ["98,Bill,Doctor’s Assistant,26"]
-    ]
-]
+// let csvArray = [
+//     ["ID,Name,Occupation,Age"],
+//     [
+//         ["42,Bruce,Knight,41"]
+//         ["57,Bob,Fry Cook,19"],
+//         ["63,Blaine,Quiz Master,58"],
+//         ["98,Bill,Doctor’s Assistant,26"]
+//     ]
+// ]
+
+const header = ["ID", "Name", "Occupation", "Age"];
+const row1 = [42, "Bruce", "Knight", 41];
+const row2 = [57, "Bob", "Fry Cook", 19];
+const row3 = [63, "Blaine", "Quiz Master", 58];
+const row4 = [98, "Bill", "Doctor's Assistant", 26];
+
+const table = [header, row1, row2, row3, row4];
+console.log(table)
 
 // Part 2: Expanding Functionality
-const columns = csvArray2[0]
-
 let csvArray2 = [
     ["ID,Name,Occupation,Age"],
     ["42,Bruce,Knight,41"],
@@ -19,6 +26,8 @@ let csvArray2 = [
     ["63,Blaine,Quiz Master,58"],
     ["98,Bill,Doctor’s Assistant,26"]
 ]
+
+const columns = csvArray2[0]
 
 // Part 3: Transforming Data
 
@@ -48,3 +57,6 @@ const rows = [
         age: "26"
     }
 ]
+
+// Part 4: Sorting and Manipulating Data
+// 1.
