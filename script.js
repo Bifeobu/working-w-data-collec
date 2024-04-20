@@ -74,5 +74,12 @@ const rows = [
     }
 ]
 
+console.log(rows)
+
 // Part 4: Sorting and Manipulating Data
 // 1.
+rows.pop(1)
+console.log(rows)
+
+// 2.
+rows.splice(1,0, {id: "48", name: "Barry", occupation: "Runner", age: "25"})
