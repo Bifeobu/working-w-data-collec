@@ -88,3 +88,23 @@ console.log(rows)
 // 3. 
 rows.push({id: "7", name: "Bilbo", occupation: "None", age: "111"})
 console.log(rows)
+
+// average age
+const ageArray = [41, 25, 19, 58, 111];
+
+const length = ageArray.length;
+
+for(let i = 0; i < length; i++) {
+    ageArray[i] = ageArray / ageArray.length ;
+}
+console.log(ageArray)
+
+// This was difficult, I could not understand how to find the average age
+
+// function average(ageArray) {
+//     let sum = 0;
+//     for(let i = 0; i < ageArray.length; i++) {
+//         sum += ageArray[i];
+//     }
+//     return sum / ageArray.length;
+// }
